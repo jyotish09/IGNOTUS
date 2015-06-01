@@ -165,6 +165,7 @@
 			
 			$var = '] }';
 			fwrite($handle, $var);
+			fclose($handle);
 			
             ?>
         </div>
