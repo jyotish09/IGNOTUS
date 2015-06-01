@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title> IGNOTUS </title>
+    <meta name="viewport" content=" width=device-width, initial-scale= 1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-brand">
+                IGNOTUS
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <center>
+                <h3> FILE Sharing </h3>
+            </center>
+
+            <p>
+                <center>
+                    Upload the file here . It'll be in the local server which can be accessed via the IP Address 127.0.0.1/ (/localhost) or through 10.0.0.2:8000/ 
+                </center>
+            </p>
+
+            <form class="form-inline" enctype="multipart/form-data" action="File.php" method="post">
+                <center>
+                <div class="form-group">
+                    <label for="file">File input</label>
+                    <input type="file" name="file"  >
+                    <br />
+                    <br />
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                </div>
+                </center>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text pull-right">
+                Jyotish Avinash Rajesh
+            </p>
+        </div>
+
+    </div>
+    <script src="jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
